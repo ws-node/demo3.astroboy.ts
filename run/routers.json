@@ -1,0 +1,10 @@
+[
+  [
+    "GET",
+    [
+      "/great"
+    ],
+    "great",
+    "imdexHtml"
+  ]
+]
