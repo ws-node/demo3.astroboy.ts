@@ -13,7 +13,12 @@ class GreatController {
   @Index([""])
   public imdexHtml() {
     this.render.setView("viewNum", this.test.showValue());
-    return new RenderResult("great.njk");
+    return new RenderResult({
+      // path: "great.njk",
+      // engine: "nunjunks"
+      path: "great2.ejs",
+      engine: "ejs"
+    });
   }
 
 }
