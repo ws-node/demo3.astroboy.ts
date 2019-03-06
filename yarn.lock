@@ -2,9 +2,10 @@
 # yarn lockfile v1
 
 
-"@bonbons/di@1.3.3":
-  version "1.3.3"
-  resolved "https://registry.yarnpkg.com/@bonbons/di/-/di-1.3.3.tgz#e89baaa03464f4ae50968607aa5c51f92ae135fc"
+"@bonbons/di@^1.4.1-rc.2":
+  version "1.4.1-rc.2"
+  resolved "https://registry.npmjs.org/@bonbons/di/-/di-1.4.1-rc.2.tgz#aab96530db055abf6c7c6b0c4b198f29f86baa8e"
+  integrity sha512-jE+Ia451AvjgDh5VNElyvV51242D5VZSaIaNVA0W6DX/BaRAWzl8+3PDf4oznFC1ZuWxQ81vNuuweDBNANR/0w==
   dependencies:
     reflect-metadata "0.1.12"
 
@@ -226,17 +227,17 @@ astroboy-router@1.2.0-rc.1:
     lodash "^4.17.11"
     reflect-metadata "^0.1.12"
 
-astroboy.ts@^1.0.3-rc.13:
-  version "1.0.3-rc.13"
-  resolved "https://registry.yarnpkg.com/astroboy.ts/-/astroboy.ts-1.0.3-rc.13.tgz#1ed3358a26fd3ae87b99c067ed6989bffe09bb9d"
-  integrity sha512-nEPFgRDAmCwFDGCHN0Gp75J/FXyJ6YHt+eI+eBfDzK379IiO7G9VtGWnpAsmtVkYCdanQxWQT5jH9OlWuqhF9Q==
+astroboy.ts@^1.0.11-rc.10:
+  version "1.0.11-rc.10"
+  resolved "https://registry.npmjs.org/astroboy.ts/-/astroboy.ts-1.0.11-rc.10.tgz#a91461e4e25f2e8332ef2285a2aed7a25367ab0a"
+  integrity sha512-WXQYk9zTTVIxuXtsncL8qpCsDSeCXCzEMcu2IfGeTrveEndru7cISrp2Twlox3pY0ijC4RXIzorzyzwCtjtwhw==
   dependencies:
-    "@bonbons/di" "1.3.3"
+    "@bonbons/di" "^1.4.1-rc.2"
     "@types/koa" "^2.0.47"
     "@types/koa-router" "^7.0.35"
     "@types/node" "^10.12.10"
     "@types/uuid" "3.4.4"
-    astroboy "0.0.35"
+    astroboy "0.0.37"
     astroboy-router "1.2.0-rc.1"
     camelcase "4.1.0"
     cerialize "0.1.18"
@@ -251,9 +252,10 @@ astroboy.ts@^1.0.3-rc.13:
     tslib "^1.9.3"
     uuid "3.3.2"
 
-astroboy@0.0.35:
-  version "0.0.35"
-  resolved "https://registry.yarnpkg.com/astroboy/-/astroboy-0.0.35.tgz#9f3428a3464e4e03dc5cd170576a54efbab9d629"
+astroboy@0.0.37:
+  version "0.0.37"
+  resolved "https://registry.npmjs.org/astroboy/-/astroboy-0.0.37.tgz#76f253de6b44341e9308f7356812112c639a82a0"
+  integrity sha512-CXk1S+zIt2ixqrj5cVhFhaSDt0NMtgx3KKsV6T0cgrE5h6hR9FKcpmOiBlMwHKoxgoevgIByiR36f9hVnY/Dkg==
   dependencies:
     chalk "2.4.0"
     complete-assign "0.0.2"
@@ -261,6 +263,7 @@ astroboy@0.0.35:
     fs-extra "5.0.0"
     koa "2.5.0"
     koa-body "2.5.0"
+    koa-bodyparser "4.2.1"
     koa-compose "4.0.0"
     koa-router "7.4.0"
     koa-static "4.0.2"
@@ -471,6 +474,16 @@ co-body@^5.1.1:
     raw-body "^2.2.0"
     type-is "^1.6.14"
 
+co-body@^6.0.0:
+  version "6.0.0"
+  resolved "https://registry.npmjs.org/co-body/-/co-body-6.0.0.tgz#965b9337d7f5655480787471f4237664820827e3"
+  integrity sha512-9ZIcixguuuKIptnY8yemEOuhb71L/lLf+Rl5JfJEUiDNJk0e02MBt7BPxR2GEh5mw8dPthQYR4jPI/BnS1MQgw==
+  dependencies:
+    inflation "^2.0.0"
+    qs "^6.5.2"
+    raw-body "^2.3.3"
+    type-is "^1.6.16"
+
 co@^4.6.0:
   version "4.6.0"
   resolved "https://registry.yarnpkg.com/co/-/co-4.6.0.tgz#6ea6bdf3d853ae54ccb8e47bfa0bf3f9031fb184"
@@ -545,6 +558,11 @@ cookies@~0.7.0:
 copy-descriptor@^0.1.0:
   version "0.1.1"
   resolved "https://registry.yarnpkg.com/copy-descriptor/-/copy-descriptor-0.1.1.tgz#676f6eb3c39997c2ee1ac3a924fd6124748f578d"
+
+copy-to@^2.0.1:
+  version "2.0.1"
+  resolved "https://registry.npmjs.org/copy-to/-/copy-to-2.0.1.tgz#2680fbb8068a48d08656b6098092bdafc906f4a5"
+  integrity sha1-JoD7uAaKSNCGVrYJgJK9r8kG9KU=
 
 core-util-is@~1.0.0:
   version "1.0.2"
@@ -633,12 +651,12 @@ delegates@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/delegates/-/delegates-1.0.0.tgz#84c6e159b81904fdca59a0ef44cd870d31250f9a"
 
-demo2.astroboy.ts@^1.0.0-rc.13:
-  version "1.0.0-rc.13"
-  resolved "https://registry.yarnpkg.com/demo2.astroboy.ts/-/demo2.astroboy.ts-1.0.0-rc.13.tgz#a5af1f1e94fa053fbd9cb1805b5cd64fc7e0124a"
-  integrity sha512-a28H2id4NMbL1iVQdeOpfXaBhAV/bnDEluIIWv/w13wQsrXAb++o+KnEij/yYjnxg804U2gMnGAiJPZe6lHB8g==
+demo2.astroboy.ts@^1.0.0-rc.15:
+  version "1.0.0-rc.15"
+  resolved "https://registry.npmjs.org/demo2.astroboy.ts/-/demo2.astroboy.ts-1.0.0-rc.15.tgz#3ded1c68b24c352889e1cdbbe28d7c243b3af1d8"
+  integrity sha512-5NV9LiponcxPYThLcbQhEMQD962mNS+UaCUPCYptVy6qkK1k3LMYgvuYhIkdyPB6drPh7HSXEsR/Xr4QvbKA6g==
   dependencies:
-    astroboy.ts "^1.0.3-rc.13"
+    astroboy.ts "^1.0.11-rc.10"
     ejs "^2.6.1"
     tslib "1.9.3"
 
@@ -1218,6 +1236,14 @@ koa-body@2.5.0:
     co-body "^5.1.1"
     formidable "^1.1.1"
 
+koa-bodyparser@4.2.1:
+  version "4.2.1"
+  resolved "https://registry.npmjs.org/koa-bodyparser/-/koa-bodyparser-4.2.1.tgz#4d7dacb5e6db1106649b595d9e5ccb158b6f3b29"
+  integrity sha512-UIjPAlMZfNYDDe+4zBaOAUKYqkwAGcIU6r2ARf1UOXPAlfennQys5IiShaVeNf7KkVBlf88f2LeLvBFvKylttw==
+  dependencies:
+    co-body "^6.0.0"
+    copy-to "^2.0.1"
+
 koa-compose@4.0.0:
   version "4.0.0"
   resolved "https://registry.yarnpkg.com/koa-compose/-/koa-compose-4.0.0.tgz#2800a513d9c361ef0d63852b038e4f6f2d5a773c"
@@ -1722,11 +1748,11 @@ pstree.remy@^1.1.3:
   version "1.1.6"
   resolved "https://registry.yarnpkg.com/pstree.remy/-/pstree.remy-1.1.6.tgz#73a55aad9e2d95814927131fbf4dc1b62d259f47"
 
-qs@^6.4.0:
+qs@^6.4.0, qs@^6.5.2:
   version "6.6.0"
   resolved "https://registry.yarnpkg.com/qs/-/qs-6.6.0.tgz#a99c0f69a8d26bf7ef012f871cdabb0aee4424c2"
 
-raw-body@^2.2.0:
+raw-body@^2.2.0, raw-body@^2.3.3:
   version "2.3.3"
   resolved "https://registry.yarnpkg.com/raw-body/-/raw-body-2.3.3.tgz#1b324ece6b5706e153855bc1148c65bb7f6ea0c3"
   dependencies:
@@ -2143,7 +2169,7 @@ tsutils@^2.27.2:
   dependencies:
     tslib "^1.8.1"
 
-type-is@^1.5.5, type-is@^1.6.14:
+type-is@^1.5.5, type-is@^1.6.14, type-is@^1.6.16:
   version "1.6.16"
   resolved "https://registry.yarnpkg.com/type-is/-/type-is-1.6.16.tgz#f89ce341541c672b25ee7ae3c73dee3b2be50194"
   dependencies:
