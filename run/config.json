@@ -14,5 +14,15 @@
     "key01": 12345,
     "key02": "woshinidie"
   },
-  "strOpt": "test_string_config"
+  "strOpt": "test_string_config",
+  "a": 123456,
+  "b": "default",
+  "c": {
+    "d": false,
+    "e": "352424"
+  },
+  "f": {
+    "v": "/Users/bigmogician/Documents/github.com/ws-node/demo3.astroboy.ts/node_modules/demo2.astroboy.ts/config/abcd"
+  },
+  "may_data": "2524gfse"
 }

@@ -2,11 +2,13 @@ update:
 	yarn add demo2.astroboy.ts@latest
 
 dev:
-	./node_modules/.bin/atc router
-	./node_modules/.bin/atc dev
+	npx atc config --force
+	npx atc router
+	npx atc dev
 
 build:
-	./node_modules/.bin/atc router -A
+	npx atc config --force
+	npx atc router -A
 	rm -rf dist
 	tsc --project tsconfig.json
 	cp -R config dist/

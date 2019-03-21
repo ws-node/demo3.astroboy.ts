@@ -9,5 +9,9 @@ module.exports = {
     approot: "",
     filetype: "ts",
     details: true
-  }
+  },
+  configCompiler: {
+    enabled: true,
+    configroot: 'app/config',
+  },
 };
