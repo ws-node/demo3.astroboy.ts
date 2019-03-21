@@ -227,17 +227,16 @@ astroboy-router@1.2.0-rc.1:
     lodash "^4.17.11"
     reflect-metadata "^0.1.12"
 
-astroboy.ts@^1.0.11-rc.30:
-  version "1.0.11-rc.30"
-  resolved "https://registry.npmjs.org/astroboy.ts/-/astroboy.ts-1.0.11-rc.30.tgz#fd90b20ac936941440fbf24faea08de8ed518ce8"
-  integrity sha512-GSn9erfkjaU4TN0hlAoCiLKL6tXBcTVBNrtUuJ1rLjbSAMk0sEXaUb60pRok83TGwnpaxoDA/LBtcp6QrOpuiw==
+astroboy.ts@^1.1.3-rc.2:
+  version "1.1.3-rc.2"
+  resolved "https://registry.npmjs.org/astroboy.ts/-/astroboy.ts-1.1.3-rc.2.tgz#80cad544191d7db0949bfd462fb74f6654f3fb55"
+  integrity sha512-m5u09VtNa4AOqBxDFtvrGTYdUM1DJ6jyeDskLDSy12SEGIbal32BCY48CeW6uDQujPq0j53oANG18jeEfXHK/Q==
   dependencies:
     "@bonbons/di" "^1.4.1-rc.2"
     "@types/koa" "^2.0.47"
     "@types/koa-router" "^7.0.35"
     "@types/node" "^10.12.10"
     "@types/uuid" "3.4.4"
-    astroboy "0.0.37"
     astroboy-router "1.2.0-rc.1"
     camelcase "4.1.0"
     cerialize "0.1.18"
@@ -252,10 +251,10 @@ astroboy.ts@^1.0.11-rc.30:
     tslib "^1.9.3"
     uuid "3.3.2"
 
-astroboy@0.0.37:
-  version "0.0.37"
-  resolved "https://registry.npmjs.org/astroboy/-/astroboy-0.0.37.tgz#76f253de6b44341e9308f7356812112c639a82a0"
-  integrity sha512-CXk1S+zIt2ixqrj5cVhFhaSDt0NMtgx3KKsV6T0cgrE5h6hR9FKcpmOiBlMwHKoxgoevgIByiR36f9hVnY/Dkg==
+astroboy@^0.0.38:
+  version "0.0.38"
+  resolved "https://registry.npmjs.org/astroboy/-/astroboy-0.0.38.tgz#401e66e645f8710ad884c415ec0ca124ab877a85"
+  integrity sha512-9sf4oOQubF/tsqIaqxYz8pIqAPh1kQEI4krTb02DnhoXnn4IvugufWsOB+mQ/3iaYroZVDfKRi0ZUOICkOek1A==
   dependencies:
     chalk "2.4.0"
     complete-assign "0.0.2"
@@ -651,12 +650,13 @@ delegates@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/delegates/-/delegates-1.0.0.tgz#84c6e159b81904fdca59a0ef44cd870d31250f9a"
 
-demo2.astroboy.ts@^1.0.0-rc.18:
-  version "1.0.0-rc.18"
-  resolved "https://registry.npmjs.org/demo2.astroboy.ts/-/demo2.astroboy.ts-1.0.0-rc.18.tgz#870a32778794c838df0aff9c316e7809e466d681"
-  integrity sha512-hAS9vwllOESoVb3O3pRAegz9kasni1rsMASDX1rN946/92sz0gZkIpB+j9gWcTgRWf/D5/4A5Z1f7FCy/D0gOA==
+demo2.astroboy.ts@^1.0.0-rc.20:
+  version "1.0.0-rc.20"
+  resolved "https://registry.npmjs.org/demo2.astroboy.ts/-/demo2.astroboy.ts-1.0.0-rc.20.tgz#88919ac0473583fbeaefa934bf7ddab25fd0f2b8"
+  integrity sha512-mRchNNjWb+4JeHpV1RbYzDz9p2+lW4C5PJGttvaq9WDQhYqgH9aunQfDrDq/4N+6ZpA6q/V5IMyP3Rg9ldn5dA==
   dependencies:
-    astroboy.ts "^1.0.11-rc.30"
+    astroboy "^0.0.38"
+    astroboy.ts "^1.1.3-rc.2"
     ejs "^2.6.1"
     tslib "1.9.3"
 
