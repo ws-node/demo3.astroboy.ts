@@ -1,10 +1,10 @@
 {
   "main": "./index.js",
   "dependencies": {
-    "demo2.astroboy.ts": "1.0.0-rc.25"
+    "demo2.astroboy.ts": "1.0.0-rc.26"
   },
   "devDependencies": {
-    "@exoskeleton/cli": "^0.0.1-rc.1561444609717",
+    "@exoskeleton/cli": "0.0.1-rc.1561455328425",
     "ts-node": "^7.0.1",
     "tslint": "^5.11.0",
     "typescript": "^3.2.2"

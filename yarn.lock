@@ -9,10 +9,10 @@
   dependencies:
     reflect-metadata "0.1.12"
 
-"@exoskeleton/cli@^0.0.1-rc.1561444609717":
-  version "0.0.1-rc.1561444609717"
-  resolved "https://registry.npmjs.org/@exoskeleton/cli/-/cli-0.0.1-rc.1561444609717.tgz#e803ddad71b4e6ef1aa855881613ef3cff610ae2"
-  integrity sha512-mJC+m9JQ8gUhAPfkLuth18GbXwjW05Je3uC9OisTEJL+GgcytQ5NJU+xYxe9NbGJ8j/cNchX3257qdSz+qKaUA==
+"@exoskeleton/cli@0.0.1-rc.1561455328425":
+  version "0.0.1-rc.1561455328425"
+  resolved "https://registry.npmjs.org/@exoskeleton/cli/-/cli-0.0.1-rc.1561455328425.tgz#a66f0c821250cb543abd843f2fbbc59e1a11b7e3"
+  integrity sha512-2paiB9GZJ69jkLAC2rwfI1ZUo42+s0fgSIEmNeA63B6zQWv6OBAZlpLV9Oq8SSZLz+tnWCiuY/vAuei+0PY6uA==
   dependencies:
     chalk "^2.4.2"
     chokidar "^3.0.1"
@@ -719,10 +719,10 @@ delegates@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/delegates/-/delegates-1.0.0.tgz#84c6e159b81904fdca59a0ef44cd870d31250f9a"
 
-demo2.astroboy.ts@1.0.0-rc.25:
-  version "1.0.0-rc.25"
-  resolved "https://registry.npmjs.org/demo2.astroboy.ts/-/demo2.astroboy.ts-1.0.0-rc.25.tgz#948a4799a0251e5603cf5ee12146a27a0584bdc0"
-  integrity sha512-8yfDR6eYsA1qkTPG3SOKbImxveroUGiVYRbEoIhavh2xJ8xTKf7Pl2yeXzNeSZULkDdwntDuYfMJCCF2eAozig==
+demo2.astroboy.ts@1.0.0-rc.26:
+  version "1.0.0-rc.26"
+  resolved "https://registry.npmjs.org/demo2.astroboy.ts/-/demo2.astroboy.ts-1.0.0-rc.26.tgz#cda28f408bf2457f8a535b218d9b0782c67ad1e6"
+  integrity sha512-kL9/wDC2km9BWhhU4D0zkOsp7CkbrGDfLlNPoRJwMK5Se6j+ye9PIzAjjevObAUmRYqv0334Wppr0Nz7o0B05g==
   dependencies:
     "@exoskeleton/core" "0.0.1-rc.1561453730725"
     astroboy "1.1.0-beta.4"
