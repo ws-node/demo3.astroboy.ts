@@ -1,14 +1,11 @@
-update:
-	yarn add demo2.astroboy.ts@latest
-
 dev:
-	npx atc config --force
-	npx atc router
-	npx atc dev
+	npx exoskeleton config --force
+	npx exoskeleton router
+	npx exoskeleton dev
 
 build:
-	npx atc config --force
-	npx atc router -A
+	npx exoskeleton config --force
+	npx exoskeleton router -A
 	rm -rf dist
 	tsc --project tsconfig.json
 	cp -R config dist/
